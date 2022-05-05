@@ -1,17 +1,11 @@
 import os
 from datetime import datetime
 from random import randint
+import secmail
+import pyfiglet
+import requests
 
-try:
-    import secmail
-    from threading import Thread
-    from pywin.framework.toolmenu import tools
-    import pyfiglet
-    import requests
-except:
-    os.system("pip install pyfiglet requests threading pywin secmail")
 
-# Colors ( Why not? :D )
 red = "\033[31m"
 green = "\033[32m"
 blue = "\033[34m"
@@ -25,6 +19,7 @@ def clear():
 
 
 def logo():
+    clear()
     print(yellow + pyfiglet.figlet_format("Hackers Code", font="slant"))
     print(white + "version 0.0.1\ntelegram: @kvorder\n\n")
     menu()
