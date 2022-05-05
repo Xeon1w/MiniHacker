@@ -13,6 +13,8 @@ phone spamer and other
 
 ***apt install git***
 
+***pip install secmail pyfiglet requests***
+
 ***git clone https://github.com/Xeon1w/MiniHacker***
 
 ***ls MiniHacker***
