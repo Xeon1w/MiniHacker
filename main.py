@@ -45,8 +45,8 @@ def work_zone(number: int):
         clear()
         numer = int(input("\n'+0123456789'\nNumer >>> "))
         print(red + "Spam started...")
-        for _ in range(20):
-            spam(number)
+        for _ in range(3):
+            spam(numer)
             print("Send...")
         logo()
 
