@@ -2,15 +2,14 @@ import os
 from datetime import datetime
 from random import randint
 
-import secmail
-
 try:
+    import secmail
     from threading import Thread
     from pywin.framework.toolmenu import tools
     import pyfiglet
     import requests
 except:
-    os.system("pip install pyfiglet requests threading pywin")
+    os.system("pip install pyfiglet requests threading pywin secmail")
 
 # Colors ( Why not? :D )
 red = "\033[31m"
