@@ -55,7 +55,7 @@ def spam(phone: int):
     ph = str(phone)
     phone = str(phone)
     try:
-        phonemas = f"{ph[0]}{ph[1]}{ph[2]} {ph[3]}{ph[4]}{ph[5]}{ph[6]} {ph[7]}{ph[8]}{ph[9]}"
+        phonemas = f"{ph[0]}{ph[1]}{ph[2]} {ph[3]}{ph[4]}{ph[5]}{ph[6]} {ph[7]}{ph[8]} {ph[9]}{ph[10]}"
     except:
         phonemas = phone
     password = "131gGrk86fe"
