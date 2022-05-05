@@ -6,11 +6,17 @@ phone spamer and other
 # install on termux
 
 ***apt update***
+
 ***apt upgrade***
+
 ***apt install git***
+
 ***git clone https://github.com/Xeon1w/MiniHacker***
+
 ***ls MiniHacker***
+
 ***puthon3 main.py***
+
 
 # License
 I am not responsible for your actions. Use for informational purposes only. By installing you confirm that you are ready to be responsible for your actions.
