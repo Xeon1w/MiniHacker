@@ -9,6 +9,8 @@ phone spamer and other
 
 ***apt upgrade***
 
+***apt install python3-pip***
+
 ***apt install git***
 
 ***git clone https://github.com/Xeon1w/MiniHacker***
